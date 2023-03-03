@@ -1,12 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome To Rajnish's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+ 
 </head>
+
 <body>
-    This is my first Deployment on github.
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#" id="navbar__logo">
+                <div></div>
+                <h4 class="transition">Rajnish Kumar</h4>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+                </li>
+                <li class="navbar__item">
+                    <a href=""
+                        onclick="window.open('')"
+                        class="navbar__links" id="resume-page">Resume</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- mainframe section  -->
+    <div class="frame" id="namepic">
+        <div id="namepic1half">
+            <div class="hero" id="home">
+                <div class="hero__container">
+                    <h2 class="name_heading">Hi, I am Rajnish Kumar</h2>
+                    <h2 class="hero__heading">
+                        <span class="type" data-wait="2000"
+                            data-words='["Frontend Developer","Software Developer","JavaScript Developer","React Developer"]'></span>
+                    </h2>
+
+                </div>
+            </div>
+            <a href="resume link need to add"
+           
+            id="btn_anchor"><button id="d_resume">Resume
+
+                <i class="class="fa fa-download"></i></button></a>
+
+
+
+            <div id="connect">
+                <a href="https://www.linkedin.com/in/imrajnishkumar" target="_blank" class="social__icon--link"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/imrajnishkumar" target="_blank" class="social__icon--link"><i
+                        class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:rajnishofficial1208@gmail.com" target="_blank" class="social__icon--link"><i
+                        class="fa fa-envelope-square"></i></a>
+            </div>
+
+        </div>
+        <div id="profilepic">
+            <div class="box">
+                <img src="./image/Raj_pic.jpg" alt="">
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="frame" id="about">
+
+        <div>
+            <div id="about_img"><img src="https://mattfarley.ca/img/hero-devices.svg" alt=""></div>
+            <div id="about_detail">
+                <h4 class="title">About me</h4>
+                <p>An aspiring Frontend developer with a strong interest in projects requiring conceptual and
+                    analytical thinking. Enjoys designing applications with different functionalities and keeping end
+                    users in mind. Seeking a challenging role in the field of software development that will offer an
+                    opportunity for further development of my abilities, skills and knowledge in an organization.</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="frame" id="skills">
+        <h4 class="title">Tech Stack</h4>
+        <div id="techStacks">
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/html.svg" alt=""></div>
+                <div class="tech-card-name">HTML</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/css.svg" alt=""></div>
+                <div class="tech-card-name">CSS</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/js.svg" alt=""></div>
+                <div class="tech-card-name">JavaScript</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/react.png" alt=""></div>
+                <div class="tech-card-name">React</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/vscode.png" alt=""></div>
+                <div class="tech-card-name">VS Code</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/git.svg" alt=""></div>
+                <div class="tech-card-name">Git</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="frame" id="soft_skills">
+        <h4 class="title">Skills</h4>
+        <div id="soft_div">
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/Frontend.jpg" alt=""></div>
+                <div class="tech-card-name">Frontend</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/Backend.jpg" alt=""></div>
+                <div class="tech-card-name">Working on Backend</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/DSA.jpg" alt=""></div>
+                <div class="tech-card-name">Basic DSA</div>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-card-logo"><img src="./image/Communication.jpg" alt=""></div>
+                <div class="tech-card-name">Communication</div>
+            </div>
+        </div>
+    </div>
+
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Projects $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+
+    <div class="frame" id="projects">
+        <h4 class="title">Projects</h4>
+        <div class="pro-card">
+            <div class="l-pro-card">
+                <img class="pro-img" id="pro-img1"
+                    src="./image/modesens.jpg" alt="modesens">
+            </div>
+            <div class="r-pro-card">
+                <h3 class="pro-title">Clone of ModeSens.com</h3>
+                <p class="pro-desc">
+                    ModeSens is a fashion technology company revolutionizing the way people shop online using a tech-forward approach. It
+                    helped millions of fashion seekers find their perfect match –whether they are looking to fit into a specific budget, trying to find the right size or itching to discover something entirely new.
+                </p>
+                <p class="pro-desc">
+                    <span class="pro-lower-title">Tech Stack : </span>
+                    HTML | CSS | Javascript
+                </p>
+                <p class="pro-desc">A individual project, built in 5 days.</p>
+
+                <div class="btn-div">
+                    <a href="https://github.com/imrajnishsingh/modesens.clone.github.io" target="_blank"><button
+                            class="pro-btn">Source code <i class="fa fa-external-link"></i></button></a>
+
+                    <a href="" target="_blank"><button class="pro-btn">Live
+                            <i class="fa fa-external-link"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card">
+            <div class="l-pro-card">
+                <img class="pro-img" id="pro-img2"
+                    src="./image/grocery_web2.jpg"
+                    alt="">
+            </div>
+            <div class="r-pro-card">
+                <h3 class="pro-title">Grocery Website
+                </h3>
+                <p class="pro-desc">
+                   This is the basic Grocery website which having great user interface. This website have five sections- Home, About, Shop, FAQ, Contact. for more details about this website you can click on live button which given below.
+                </p>
+                <p class="pro-desc">
+                    <span class="pro-lower-title">Tech Stack : </span>
+                    HTML | CSS | Javascript | React.js | Ant.Design UI
+                </p>
+                <p class="pro-desc">A individual project, built in 7 days.</p>
+                <div class="btn-div">
+                    <a href="https://github.com/imrajnishsingh/Grocery.github.io" target="_blank"><button
+                            class="pro-btn">Source code <i class="fa fa-external-link"></i></button></a>
+
+                    <a href="" target="_blank"><button
+                            class="pro-btn">Live <i class="fa fa-external-link"></i></button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="pro-card">
+            <div class="l-pro-card">
+                <img class="pro-img" id="pro-img3" src="./image/portfolio_image.jpg" alt="">
+            </div>
+            <div class="r-pro-card">
+                <h3 class="pro-title">My Portfolio
+                </h3>
+                <p class="pro-desc">
+                    This is my Portfolio Website. You can check Tech-stack that has been used in making my portfolio.
+                </p>
+                <p class="pro-desc">
+                    <span class="pro-lower-title">Tech Stack : </span>
+                    HTML | CSS | Javascript
+                </p>
+                <p class="pro-desc">An individual project, built in 5 days.</p>
+                <div class="btn-div">
+                    <a href="" target="_blank"><button
+                            class="pro-btn">Source code <i class="fa fa-external-link"></i></button></a>
+
+                    <a href=""
+                        target="_blank"><button class="pro-btn">Live <i class="fa fa-external-link"></i></button></a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+
+
+
+
+    
+
+    <div id="contact">
+        <h4 class="title">Contact Me</h4>
+        <div id="con-main-card">
+            <a href="https://www.linkedin.com/in/imrajnishkumar" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-linkedin-square" target="_blank"></i>
+                    <h6> LinkedIn</h6>
+                </div>
+            </a>
+            <a href="https://github.com/imrajnishsingh/imrajnishsingh.git" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-github" target="_blank"></i>
+                    <h6> Github</h6>
+                </div>
+            </a>
+            <a href="mailto:rajnishofficial1208@gmail.com" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-envelope" target="_blank"></i>
+                    <h6 id="email-bottom"> rajnishofficial1208@gmail.com</h6>
+                </div>
+            </a>
+            <a href="tel:+917764806821" target="_blank" class="hvr-forward">
+                <div class="con-card transition">
+                    <i class="fa fa-phone" target="_blank"></i>
+                    <h6> +91 7764806821</h6>
+                </div>
+            </a>
+
+        </div>
+
+
+
+    </div>
+
 </body>
+
 </html>
+
+
+<script src="./github-calendar.min.js"></script>
+<script>
+    // GitHubCalendar(".calendar", "aniket427");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "aniket427", { responsive: true });
+</script>
+<script src="index.js"></script>
